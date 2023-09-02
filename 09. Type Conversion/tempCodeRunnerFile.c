@@ -1,0 +1,1 @@
+%c %d %x \n", ch, ch, ch
