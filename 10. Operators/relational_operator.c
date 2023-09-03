@@ -13,5 +13,13 @@ int main()
     // !=
     printf("a is not b %d \n", a != b); // 1 true
 
+    //
+    int x = 5, y = 5;
+    
+    printf("x is greater than y %d \n", x>y); // 0 false
+    printf("x is equal y %d \n", x>=y); // 1 true
+
+
+
     return 0;
 }
