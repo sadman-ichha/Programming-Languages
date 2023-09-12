@@ -2,7 +2,9 @@
 #include <stdbool.h>
 int main()
 {
-    int age = 19;
+    int age;
+    printf("Enter your age : ");
+    scanf("%d" , &age);
     bool has_nid = false;
     bool has_passport = false;
 

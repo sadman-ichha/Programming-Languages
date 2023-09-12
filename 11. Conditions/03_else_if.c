@@ -15,7 +15,7 @@ int main()
     }
     else
     {
-        printf("Nothing else");
+        printf("Nothing else\n");
     }
     return 0;
 }
