@@ -19,7 +19,7 @@ int main(){
 
     // Printing the sorted array
     for(i = 0; i < length; i++){
-        printf("%d ", numbers[i]);
+        printf("%d ",numbers[i]);
     }
 
     return 0;
