@@ -1,8 +1,12 @@
 #include <stdio.h>
 
+void greet(char name[], int birth_year); // Function Prototype
+int calculate_age(int birth_year); // Function Prototype
+
 int main()
 {
-    greet("Kokman",2000);
+    greet("Sadman",2000);
+    greet("Jon",1995);
 
     return 0;
 }
