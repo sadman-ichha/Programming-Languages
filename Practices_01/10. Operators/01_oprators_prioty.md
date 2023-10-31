@@ -5,7 +5,7 @@
 1.Parentheses () - Highest Priority:
 
 Parentheses are used to group sub-expressions and force the evaluation order. Expressions inside parentheses are evaluated first.
-Postfix Operators (e.g., a++, a--) and Member Access ( .or ->):
+Postfix Operators (e.g., a++, a--) and Member Access (.or ->):
 
 2.Postfix operators and member access operators are evaluated from left to right after the expression within parentheses.
 Prefix Operators (e.g., ++a, --a, +a, -a, !a, ~a, sizeof, type casts):
