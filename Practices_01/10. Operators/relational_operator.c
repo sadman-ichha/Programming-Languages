@@ -4,13 +4,14 @@
 int main()
 {
     int a = 10, b = 5;
-    // >
+
+    // Greater than > 
     printf("a is greater than b %d \n", a > b); // 1 true
-    // <
+    // Less Than <
     printf("a is not greater than b %d \n", a < b); // 0 false
-    // ==
+    // Euqal to == 
     printf("a is b %d \n", a == b); // 0 false
-    // !=
+    // Not equal !=
     printf("a is not b %d \n", a != b); // 1 true
 
     //
