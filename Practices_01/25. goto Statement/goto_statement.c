@@ -3,14 +3,12 @@ int main()
 {
     int i = 1;
 
-out:
-{
+out:{
     printf("%d \t", i);
     i++;
 }
 
-    if (i < 5)
-    {
-        goto out; //
+    if (i < 5){
+        goto out; // goto statement level here
     }
 }
