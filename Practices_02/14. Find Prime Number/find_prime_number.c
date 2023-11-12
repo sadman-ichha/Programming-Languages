@@ -22,6 +22,6 @@ int main() {
         printf("Not Prime\n");
     }
 
-    // Return statement
+    // Return  statement
     return 0;
 }
