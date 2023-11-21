@@ -3,7 +3,7 @@
 int main(){
     int numbers[] = {1, 11, 2, 10, 13, 18, 21, 3, 3, 5, 7, 7, 2, 66};
     int i, j, temp;
-    int length = sizeof(numbers) / sizeof(numbers[0]);
+    int length = sizeof(numbers) / sizeof(numbers[0]); // 
 
     // Sorting array using the bubble sort algorithm
     for(i = 0; i < length; i++){
