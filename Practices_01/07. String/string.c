@@ -23,7 +23,7 @@ int main()
     printf("myName three index 0 = %c \n", myName3[0]);
     printf("myName three index 3 = %c \n", myName3[3]);
 
-    // Display string character-wise ****************************
+    // Display string character-wise ***************************
     char sadman_name[] = "SADMAN";
     int i = 0;
     // using for loop
