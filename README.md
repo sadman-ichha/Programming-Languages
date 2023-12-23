@@ -1,6 +1,3 @@
-![11-best-future-programming-languages](https://github.com/sadman-ichha/Programming-Languages/assets/89066510/784683da-693e-4212-94f8-1d7405129cbe)
-
-
 # Multi-Language Code Repository
 
 Welcome to my Multi-Language Code Repository! This collection houses a range of projects, code samples, and resources showcasing my expertise in C#, C++, Dart, and Python.
