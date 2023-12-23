@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="portfolio.png" alt="Portfolio Image" width="60%">
-</p>
+![11-best-future-programming-languages](https://github.com/sadman-ichha/Programming-Languages/assets/89066510/784683da-693e-4212-94f8-1d7405129cbe)
+
 
 # Multi-Language Code Repository
 
@@ -8,15 +7,16 @@ Welcome to my Multi-Language Code Repository! This collection houses a range of 
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Languages Covered](#languages-covered)
-- [Folder Structure](#folder-structure)
-- [Projects](#projects)
-- [Code Samples](#code-samples)
-- [Resources](#resources)
-- [Contributing](#contributing)
-- [Contact](#contact)
-- [License](#license)
+- [Introduction](#introduction) 🚀
+- [Languages Covered](#languages-covered) 🌐
+- [Folder Structure](#folder-structure) 📂
+- [Projects](#projects) 🌟
+- [Getting Started](#getting-started) 🛠️
+- [Code Samples](#code-samples) 💻
+- [Resources](#resources) 🔗
+- [Contributing](#contributing) 🤝
+- [Contact](#contact) 📩
+- [License](#license) 📄
 
 ## Introduction
 
@@ -29,6 +29,7 @@ This repository serves as a testament to my proficiency across multiple programm
 - C++
 - Dart
 - Python
+- and more...
 
 Explore each language folder to delve into my projects, code snippets, and useful resources.
 
@@ -50,6 +51,15 @@ Explore each language folder to delve into my projects, code snippets, and usefu
   - `projects/`
   - `code-samples/`
   - `resources/`
+ 
+## Getting Started
+To get started:
+
+1. Clone this repository.
+2. Navigate to the language folder you're interested in.
+3. Explore the code examples, projects, and resources available.
+
+Make sure to follow any language-specific instructions provided in the respective folders.
 
 ## Projects
 
@@ -63,22 +73,31 @@ Explore each language folder to delve into my projects, code snippets, and usefu
 - Tech Stack: Frameworks or specific libraries used.
 - [Coming Soon](link)
 
-## 💻 Code Samples
+## Code Samples
 
-Browse through language-specific code snippets showcasing algorithms, design patterns, and more.
+Browse through language-specific code snippets demonstrating various concepts, algorithms, and problem-solving approaches.
 
-## 🔗 Resources
+## Resources
 
-Curated list of resources, tutorials, and articles related to each programming language.
+Find a curated list of resources, tutorials, and links related to each programming language. These resources have been instrumental in my learning journey.
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are welcome! Fork this repository, add your enhancements, and create a pull request. Please follow the contribution guidelines.
+Contributions are welcome! Fork this repository, make your changes, and submit a pull request. Please follow the contribution guidelines. 
+If you'd like to contribute:
 
-## 📩 Contact
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/add-new-language`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new language'`).
+5. Push to the branch (`git push origin feature/add-new-language`).
+6. Create a new Pull Request.
 
-Feel free to contact me via [email](mailto:sadmanichha@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/sadman-ichha/).
 
-## 📄 License
+## Contact
+
+Feel free to reach out to me via [email](mailto:sadmanichha@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/sadman-ichha/).
+
+## License
 
 This repository is licensed under the [MIT License](LICENSE).
