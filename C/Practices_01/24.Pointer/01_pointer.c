@@ -30,7 +30,6 @@ int main()
 
     // Printing the memory address of ptr1
     printf("Address of ptr1 : %d \n", (void *)&ptr1); // Using %p format specifier to print the address of ptr1 (casted to void *)
-
-
+    
     return 0;
 }
