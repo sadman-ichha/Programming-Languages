@@ -30,8 +30,8 @@ int main()
     else
     {
         printf("Memory Allocation Successful using calloc.\n");
-        // Some work
-        free(caloc_ptr);
+        // Some work bla bla
+        free(caloc_ptr); // Free the memory
         printf("Calloc Memory successfully freed.\n");
     }
     return 0;
