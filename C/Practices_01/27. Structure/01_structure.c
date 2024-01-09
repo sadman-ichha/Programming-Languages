@@ -24,7 +24,7 @@ int main()
     person2.age = 50;
     person2.cgpa = 4.00;
 
-    // Print information about 'person2'
+    // Print information about 'person2 '
     printf("Person2 age: %d\n", person2.age);
     printf("Person2 cgpa: %lf\n", person2.cgpa);
 

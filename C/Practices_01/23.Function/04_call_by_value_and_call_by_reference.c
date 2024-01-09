@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-// Called By Value...
+// Function defined for Call By Value
 void changeValueByValue(int a) {
     a = a + 2;
     printf("Inside function using Call by value: %d\n", a);
 }
 
-// Called By Reference...
+// Function defined for Call By Reference
 void changeValueByReference(int *a) {
     *a = *a + 2;
     printf("Inside function using Call by reference: %d\n", *a);
@@ -15,10 +15,12 @@ void changeValueByReference(int *a) {
 int main() {
     int num = 5;
 
-    changeValueByValue(num);
+    printf("---Call by Value---\n");
+    changeValueByValue(num); // Calling function using Call By Value
     printf("After Call by Value: %d\n", num); // Output: 5 (unchanged)
 
-    changeValueByReference(&num);
+    printf("\n---Call by Reference---\n");
+    changeValueByReference(&num); // Calling function using Call By Reference
     printf("After Call by Reference: %d\n", num); // Output: 7 (5 + 2)
 
     return 0;
