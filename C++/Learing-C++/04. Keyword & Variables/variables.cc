@@ -1,6 +1,7 @@
-#include <iostream>
-
 // This program demonstrates variables, and data types in C++
+
+#include <iostream>
+#include <iomanip> // Include the header for setprecision
 
 int main()
 {
@@ -15,6 +16,12 @@ int main()
     std::cout << "Age: " << age << "\n";
     std::cout << "Height: " << height << " feet\n";
     std::cout << "Gender: " << gender << "\n";
+
+    // ********** Declare and initialize a double variable *******
+    double doubleValue = 3.14159;
+    std::cout << "Double Value: " << doubleValue << std::endl;
+    // You can also set precision using std::setprecision
+    std::cout << "Double Value with std::Precision: " << std::fixed << std::setprecision(2) << doubleValue << std::endl;
 
     // Using std::boolalpha
     bool myBool = true;
