@@ -2,6 +2,8 @@
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "stdint.h": "c",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "iomanip": "cpp",
+        "ostream": "cpp"
     }
 }
