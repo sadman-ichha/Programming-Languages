@@ -4,6 +4,9 @@
         "stdint.h": "c",
         "iostream": "cpp",
         "iomanip": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "system_error": "cpp",
+        "xlocale": "cpp",
+        "xstring": "cpp"
     }
 }
