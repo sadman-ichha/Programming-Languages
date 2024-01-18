@@ -7,6 +7,7 @@
         "ostream": "cpp",
         "system_error": "cpp",
         "xlocale": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "list": "cpp"
     }
 }
