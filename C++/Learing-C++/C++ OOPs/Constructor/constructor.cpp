@@ -36,7 +36,7 @@ public:
 int main() {
     // Creating objects using different constructors
     Person person1; // Default constructor
-    cout << "Person 1 Information:\n";
+    cout << "Person 1 Information: \n";
     person1.displayInfo();
     cout << "\n";
     
