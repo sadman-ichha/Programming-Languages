@@ -6,42 +6,45 @@
 #include <string>
 using namespace std;
 
-class Person {
+class Person
+{
 public:
     // Member variables
     string name;
     int age;
 
     // Default constructor
-    Person() {
+    Person()
+    {
         cout << "Default Constructor Called\n";
         name = "Unknown";
         age = 0;
     }
 
     // Parameterized constructor
-    Person(string n, int a) {
+    Person(string n, int a)
+    {
         cout << "Parameterized Constructor Called\n";
         name = n;
         age = a;
     }
 
     // Member function to display information
-    void displayInfo() {
+    void displayInfo()
+    {
         cout << "Name: " << name << "\n";
         cout << "Age: " << age << "\n";
     }
 };
 
-int main() {
+int main()
+{
     // Creating objects using different constructors
     Person person1; // Default constructor
+    Person *p = &person1;
     cout << "Person 1 Information: \n";
-    person1.displayInfo();
+    p->displayInfo(); // Using selecetion Oparator Accessing
     cout << "\n";
-    
-   
-
 
     Person person2("Alice", 25); // Parameterized constructor
     cout << "Person 2 Information:\n";
