@@ -1,0 +1,1 @@
+: Shape(dim1, dim2)
