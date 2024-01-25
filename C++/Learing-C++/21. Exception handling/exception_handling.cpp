@@ -11,7 +11,7 @@ int main() {
 
             if (denominator == 0) {
                 // Throw an exception for division by zero
-                throw runtime_error("Division by zero is undefined ");
+                throw runtime_error("Division by zero is undefined");
             }
 
             double result = double(numerator) / denominator; 
