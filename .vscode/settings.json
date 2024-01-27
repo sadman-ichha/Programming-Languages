@@ -8,6 +8,7 @@
         "system_error": "cpp",
         "xlocale": "cpp",
         "xstring": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "xiosbase": "cpp"
     }
 }
