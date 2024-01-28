@@ -1,13 +1,11 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-int add(int x, int y);
+
 int main() {
     ofstream file;
     string name;
-
     
-
     // Open the file with ios::out | ios::app flags
     file.open("new_file.txt", ios::out | ios::app);
 
