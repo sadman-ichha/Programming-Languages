@@ -1,6 +1,6 @@
 #include <iostream>
-int main()
-{
+
+int main(){
     // 1. auto: Automatically deduces the data type of a variable at compile-time.
 
     // 2. break: Used to exit from a loop or switch statement prematurely.

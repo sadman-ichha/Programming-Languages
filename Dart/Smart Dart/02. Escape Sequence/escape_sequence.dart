@@ -1,3 +1,6 @@
+// An "escape sequence" is a series of characters in a string that starts with a backslash (\) 
+// and is used to represent special or control characters in programming languages.
+
 void main() {
   // Newline: Inserts a newline character, moving the cursor to the beginning of the next line.
   print("Newline:\nThis is on a new line");
@@ -26,3 +29,5 @@ void main() {
   // Vertical tab: Represents a vertical tab character. Not commonly used.
   print("Vertical tab:This\v is a vertical tab");
 }
+
+

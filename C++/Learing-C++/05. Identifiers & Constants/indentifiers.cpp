@@ -14,8 +14,7 @@ public:
     int year;
 };
 
-int main()
-{
+int main(){
     // Variable identifiers
     int firstNumber = 10;
     int secondNumber = 20;
