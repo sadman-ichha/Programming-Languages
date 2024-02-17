@@ -84,6 +84,7 @@ int main()
     cout << "Bitwise XOR: " << bitwiseXor << "\n";
     cout << "Bitwise NOT for a: " << bitwiseNotA << "\n";
 
+
    
     return 0;
 }
