@@ -1,8 +1,10 @@
+// ignore_for_file: dead_code
+
 void main() {
   // Arithmetic Operators
   int operand1 = 10;
   int operand2 = 3;
-  print("-----Arithmetic Operators----");
+  print("----Arithmetic Operators----");
   print("Addition: ${operand1 + operand2}");
   print("Subtraction: ${operand1 - operand2}");
   print("Multiplication: ${operand1 * operand2}");
@@ -10,13 +12,13 @@ void main() {
   print("Remainder: ${operand1 % operand2}");
 
   // Relational Operators
-  print("\n-----Relational Operators----");
+  print("\n----Relational Operators----");
   print("Greater Than: ${operand1 > operand2}");
   print("Equal To: ${operand1 == operand2}");
   print("Not Equal To: ${operand1 != operand2}");
 
   // Logical Operators
-  print("\n-----Logical Operators----");
+  print("\n----Logical Operators----");
   bool isTrue = true;
   bool isFalse = false;
   print("Logical AND: ${isTrue && isFalse}");
@@ -24,14 +26,14 @@ void main() {
   print("Logical NOT: ${!isTrue}");
 
   // Assignment Operators
-  print("\n-----Assignment Operators----");
+  print("\n----Assignment Operators----");
   int result = 0;
   result += 5; // result = 0 + 5 = 5;
   result *= 3; // result = 5 * 3 = 15;
   print("Result: $result");
 
   // Conditional (Ternary) Operator
-  print("\n-----Conditional (Ternary) Operator----");
+  print("\n----Conditional (Ternary) Operator----");
   int number = 42;
   String resultString = (number % 2 == 0) ? "Even" : "Odd";
   print("Number is $resultString");
@@ -54,7 +56,7 @@ void main() {
   print("Right Shift: ${num1 >> 1}");
 
   // Unary Operators
-  print("\n-----Unary Operators----");
+  print("\n----Unary Operators----");
   int unaryOperand = 42;
   print("Negation: ${-unaryOperand}");
   bool isFlag = true;
@@ -67,7 +69,7 @@ void main() {
   print("Post-increment: $postIncrement");
 
   // Cascade Notation (.. double dot) Operator
-  print("\n----Cascade Notation (.. double dot) Operators----");
+  print("\n---Cascade Notation (.. double dot) Operators----");
   String concatenatedResult = (StringBuffer()
         ..write("Dart ")
         ..write("is ")
@@ -76,16 +78,16 @@ void main() {
   print("Cascade Notation: $concatenatedResult");
 
   // Null-aware Operators
-  print("\n----Null-aware Operators----");
+  print("\n---Null-aware Operators----");
   int? nullableValue;
   int defaultValue = nullableValue ?? 10;
   print("Null-aware Coalescing: $defaultValue");
   String? nullableString = "";
-  int length = nullableString.length ?? 0;
+  int length = nullableString.length;
   print("Null-aware Access: $length");
 
   // Member Access Operators
-  print("\n----Member Access(.) Operators----");
+  print("\n---Member Access(.) Operators----");
   String greeting = "Hello, Dart!";
   print("Length: ${greeting.length}");
   String? nullableGreeting = null;
