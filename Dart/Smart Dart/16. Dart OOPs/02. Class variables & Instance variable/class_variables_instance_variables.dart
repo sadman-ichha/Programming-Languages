@@ -1,8 +1,7 @@
-
 // 1. Class
 class Dog {
   // 2. Class Variable
-  static int numberOfDogs = 0;
+  static int numberOfDogs = 1;
 
   // 3. Instance Variables
   late String name;
@@ -25,9 +24,9 @@ void main() {
     ..name = 'Buddy'
     ..age = 3;
 
-  var dog2 = Dog()
-    ..name = 'Max'
-    ..age = 2;
+  Dog dog2 = Dog();
+  dog2.name = 'Max';
+  dog2.age = 2;
 
   // 7. Accessing Instance Variables and Methods
   print('Dog 1: ${dog1.name}, ${dog1.age} years old');
