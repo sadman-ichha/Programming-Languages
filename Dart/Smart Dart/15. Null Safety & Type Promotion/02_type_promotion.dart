@@ -1,7 +1,7 @@
 void main() {
   // Example 1: Type Promotion through 'is' check
   dynamic myVar1 = "Hello, Dart!";
-
+  
   if (myVar1 is String) {
     // Type promotion: myVar1 is now known to be a String
     print('Example 1: Length of String: ${myVar1.length}');
@@ -42,6 +42,13 @@ void main() {
   This Dart file demonstrates the concept of Type Promotion in Dart.
   Type Promotion allows the Dart analyzer to narrow down the type of a variable within a specific code block based on runtime checks.
   
+  DEF::Type promotion in dart means that dart automatically converts a value of one type to another type.
+  Dart does this when it knows that the value is of a specific type.
+  
+  Types Promotion in Dart works in the following ways:??
+  1. Promoting from general types to specific subtypes.
+  2. Promoting from nullable types to non-nullable types.
+
   Example 1: Type Promotion through is check.
   Example 2: Type Promotion through as cast.
   Example 3: Type Promotion in a for loop.

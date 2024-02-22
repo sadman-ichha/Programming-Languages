@@ -1,3 +1,5 @@
+// ignore_for_file: unused_field, equal_keys_in_map
+
 class MyClass {
   //global variable
   int _age = 50;
