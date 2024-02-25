@@ -1,4 +1,3 @@
-
 class Parent {
   String? name;
 
@@ -13,8 +12,8 @@ class Parent {
 class Child extends Parent {
   int? age;
 
-  // Constructor for Child class, calling the constructor of the Parent class using super
-  Child(String name, this.age) : super(name);
+  // Constructor for Child class
+  Child(String name, this.age):super(name) ;
 
   // Method specific to the Child class
   void displayChild() {
@@ -23,13 +22,14 @@ class Child extends Parent {
 }
 
 void main() {
-  // instance of the Child class
+  // Instance/obj of the Child class
   Child childInstance = Child("John Doe", 25);
 
   // Accessing methods from both Parent and Child classes
   childInstance.display();      // Calls the display method from the Parent class
   childInstance.displayChild(); // Calls the displayChild method from the Child class
 }
+
 
 
 
