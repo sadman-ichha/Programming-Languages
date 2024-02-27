@@ -6,8 +6,7 @@
   
   This Dart file demonstrates the basics of synchronous programming in Dart.
   It includes a simple synchronous function and showcases how code is executed sequentially.
-
-
+  
 */
 
 // Synchronous function performing a simple task
