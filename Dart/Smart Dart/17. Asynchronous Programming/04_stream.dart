@@ -13,7 +13,7 @@ Stream<int> generateNumbers() async* {
 
 void main() {
   print('Start of the program');
-  Stream<int> numbersStream = generateNumbers();
+  Stream<int> numbersStream =  generateNumbers();
 
   StreamSubscription<int>? subscription;
 
