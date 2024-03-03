@@ -4,7 +4,7 @@ import 'dart:async';
 Stream<int> generateNumbers() async* {
   for (int i = 1; i <= 5; i++) {
     // Simulating asynchronous delay
-    await Future.delayed(Duration(seconds:1));
+    await Future.delayed(Duration(seconds: 1));
 
     // Yielding the generated number to the stream
     yield i;
