@@ -56,7 +56,7 @@ void main() {
 
 
 /*
-  Dart File: stream_example.dart
+  Dart File:stream_example.dart
 
   Note:
   This Dart file demonstrates the basics of using Streams in Dart for asynchronous programming.
