@@ -52,7 +52,7 @@ void main() {
   It includes the creation of a simple Future, handling success and error scenarios using `.then()` and `.catchError()`,
   and using `async` and `await` for more readable asynchronous code.
 
-  ---More About Future---
+  ---More About Future----
   Future represents the result of an asynchronous operation and can have 2 states.
 
   ---State Of Future---
