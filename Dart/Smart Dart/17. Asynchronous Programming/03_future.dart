@@ -35,7 +35,7 @@ void main() {
     }
   }
 
-  // Calling the asynchronous function using async/await
+  // Calling the asynchronous function using async/ await
   fetchData();
 
   print('End of the program');
