@@ -7,7 +7,7 @@ Some key features of Dart include:
 
 Strong typing: Dart is a statically typed language, which means that variables must be declared with their data types. This helps catch errors at compile-time, rather than at runtime.
 
-Garbage collection: Dart features automatic memory management, which means that developers don't have to worry about manually freeing up memory when it's no longer needed.
+Garbage collection:Dart features automatic memory management, which means that developers don't have to worry about manually freeing up memory when it's no longer needed.
 
 Asynchronous programming: Dart has built-in support for asynchronous programming, which allows  developers to write code that can handle multiple tasks at once without blocking.
 
