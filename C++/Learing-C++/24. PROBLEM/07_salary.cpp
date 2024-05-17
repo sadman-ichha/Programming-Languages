@@ -3,6 +3,7 @@
 
 #include <iostream>
 using namespace std;
+#include <iomanip>
 
 int main()
 {
@@ -11,8 +12,8 @@ int main()
     float salary, monthSalary;
     cin >> employee >> hour >> salary;
     monthSalary = hour * salary;
-    cout >> "NUMBER = " << employee << endl;
-    cout >> fixed << setprecision(2) << "SALARY = U$"<<monthSalary << endl;
+    cout << "NUMBER = " << employee << endl;
+    cout << fixed << setprecision(2) << "SALARY = U$ " << monthSalary << endl;
 
     return 0;
 }
