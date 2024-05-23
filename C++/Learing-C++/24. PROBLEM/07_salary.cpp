@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 
-    int employee, hour;
+    int employee, hour ;
     float salary, monthSalary;
     cin >> employee >> hour >> salary;
     monthSalary = hour * salary;
