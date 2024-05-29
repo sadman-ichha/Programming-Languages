@@ -21,7 +21,7 @@ int main()
 
         if (a < 0 || a > 9 || b < 0 || b > 9)
         {
-            cout << "Invalid input! Both a and b should be between 0 and 9." << endl;
+            cout << "Invalid input! Both a and b should be between 0 and  9." << endl;
             return 1;
         }
         else
