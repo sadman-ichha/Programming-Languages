@@ -7,7 +7,7 @@ int main()
     cin >> t;
     cin.ignore();
 
-    // Check if the number of test cases is within the valid ranges
+    // Check if the number of test cases is within the valid range
     if (t < 1 || t > 100)
     {
         cerr << "Number of test cases must be between 1 and 100" << endl;
