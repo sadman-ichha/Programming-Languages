@@ -23,7 +23,7 @@ The is operator returns a boolean value, which is true if the object is an insta
 the specified type or a subtype of that type, and false otherwise.
 */
 String name = "Sadman";
-var typeResult = name is String;
+var typeResult = name;
 
 // Conditional Operators
 /*The conditional operator in Dart is a shorthand way to write if-else statements that return a value. 

@@ -7,9 +7,6 @@ void main() {
     case PaymentMethod.Nagad:
       print("Paying with Nagad");
       break;
-    case PaymentMethod.Nagad:
-      print("Paying with Nagad");
-      break;
     case PaymentMethod.applePay:
       print("Paying with applePay");
       break;

@@ -2,9 +2,9 @@ void main() {
 // int to String conversion
   int num = 10;
 // way one
-  // print("${num}");
-  // way two
-  // print(num.toString());
+  print("${num}");
+  //way two
+  print(num.toString());
 
   // String to int
   String userId = "15";
