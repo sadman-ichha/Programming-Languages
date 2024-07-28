@@ -4,8 +4,8 @@ int main()
 {
     // Output using various escape sequences
 
-    std::cout << "1. Hello, GitHub!\n \n";
-    // Line 1: Output "Hello, GitHub!" and
+    std::cout << "1. Hello, World!\n \n";
+    // Line 1: Output "Hello, World!" and
 
     std::cout << "2. This is a new line.\tTabbed here.\n\n";
     // Line 2: Output a string with a new line and a tab.
