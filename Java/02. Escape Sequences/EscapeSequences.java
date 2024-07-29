@@ -11,7 +11,7 @@ public class EscapeSequences {
         System.out.println("Carriage return example.\rOverwritten");
 
         // Tab (\t)
-        // Inserts a horizontal tab space.
+        // Inserts a horizontal tab space..
         System.out.println("Column1\tColumn2\tColumn3");
 
         // Backspace (\b)
