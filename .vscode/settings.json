@@ -1,0 +1,14 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "stdint.h": "c",
+        "iostream": "cpp",
+        "iomanip": "cpp",
+        "ostream": "cpp",
+        "system_error": "cpp",
+        "xlocale": "cpp",
+        "xstring": "cpp",
+        "list": "cpp",
+        "xiosbase": "cpp"
+    }
+}
