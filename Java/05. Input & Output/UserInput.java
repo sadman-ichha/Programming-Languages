@@ -17,7 +17,6 @@ public class UserInput {
         try ( 
             // Create a Scanner object
                 Scanner scanner = new Scanner(System.in)) {
-
             // Prompt the user for different types of input
             System.out.print("Enter your name: ");
             String name = scanner.nextLine(); // Read a line of text (String)
