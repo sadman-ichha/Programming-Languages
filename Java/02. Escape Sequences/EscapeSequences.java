@@ -15,7 +15,7 @@ public class EscapeSequences {
 
         // Backspace (\b)
         // Moves the cursor back one space.
-        System.out.println("Backspace\b example");
+        System.out.println("Backspace\b example  ");
 
         // Form Feed (\f)
         // Moves the cursor to the start of the next logical page.
