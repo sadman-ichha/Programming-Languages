@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/01. Hello" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02. Escape Sequences" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03. keyword &amp; variable" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04. Identifiers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05. Input &amp; Output" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06. Type Conversion &amp; Type Casting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07. Oparetors &amp; Expressions" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
