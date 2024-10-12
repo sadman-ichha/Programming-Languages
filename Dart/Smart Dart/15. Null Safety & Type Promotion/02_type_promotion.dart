@@ -12,7 +12,7 @@ void main() {
 
   if (myVar2 is int) {
     // Type promotion: myVar2 is now known to be an int
-    int intValue = myVar2 as int;
+    int intValue = myVar2;
     print('Example 2: Double of Int: ${intValue * 2}');
   }
 
