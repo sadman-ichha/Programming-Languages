@@ -12,7 +12,7 @@ void main() {
      // Type Casting
      Object myObject = "Hello Dart!";
      if (myObject is String) {
-       String myString = myObject as String; // Type casting using 'as'
+       String myString = myObject; // Type casting using 'as'
        print("Type Casting: $myString");
      }
 
