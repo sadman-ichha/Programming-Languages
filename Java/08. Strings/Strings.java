@@ -1,3 +1,9 @@
+/*
+ Strings are used for storing text.
+
+A String variable contains a collection of characters surrounded by double quotes
+ */
+
 public class Strings {
     public static void main(String[] args) {
         // Creating Strings
