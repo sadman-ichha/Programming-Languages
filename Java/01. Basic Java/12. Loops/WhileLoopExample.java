@@ -25,18 +25,33 @@ public class WhileLoopExample {
         // System.out.println(countdown);
         // countdown--;
         // }
-
         try (Scanner scanner = new Scanner(System.in)) {
             {
-                String name;
-                System.out.print("Enter your Name:");
-                name = scanner.nextLine();
-                System.out.println(name);
-                scanner.close();
+
+                // int x = 1;
+                // while (x <= 5) {
+                //     String name;
+                //     System.out.print("Enter your Name:");
+                //     name = scanner.nextLine();
+                //     System.out.println(name);
+                //     x+=1;
+                // }
+                //scanner.close();
+
+                for(int i=1; i<=5; i+=1){
+                    String name;
+                    System.out.print("Enter your Name:");
+                    name = scanner.nextLine();
+                    System.out.println(name);  
+                }
+
             }
         } catch (Exception e) {
             System.out.println(e);
         }
+
+
+        
 
     }
 
