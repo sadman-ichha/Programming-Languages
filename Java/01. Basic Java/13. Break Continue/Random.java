@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class Random {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of terms you want in the fibbonachi series");
