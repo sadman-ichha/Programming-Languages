@@ -13,7 +13,7 @@ public class DoWhileLoopExample {
         int num = 1; // Starting number
         do {
             sum += num;
-            System.out.println("Added " + num + ", Sum:" + sum);
+            System.out.println("Added " + num +", Sum:" + sum);
             num++;
         } while (sum < 15);
     }
