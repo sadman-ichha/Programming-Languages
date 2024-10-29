@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Software/Source Code For Github/Programming-Languages/C",
-      "program": "d:/Software/Source Code For Github/Programming-Languages/C/build/Debug/outDebug",
+      "cwd": "d:/Software/Source Code For Github/Programming-Languages/C/Practices_02/23. Pattren/02. Pattren Type 2",
+      "program": "d:/Software/Source Code For Github/Programming-Languages/C/Practices_02/23. Pattren/02. Pattren Type 2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
