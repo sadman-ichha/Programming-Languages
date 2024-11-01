@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "ArraysExample",
+      "request": "launch",
+      "mainClass": "ArraysExample",
+      "projectName": "Programming-Languages_4cc4a0ef"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
