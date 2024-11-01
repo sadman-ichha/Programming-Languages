@@ -18,7 +18,7 @@ int main()
         {
             printf("%d ", column); // Print the specified character
         }
-        printf("\n"); // Move to the next line after each row
+        printf("\n"); // Move  to to the next line after each row
     }
 
     return 0;
