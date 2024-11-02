@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ConstructorExample",
+      "request": "launch",
+      "mainClass": "ConstructorExample",
+      "projectName": "Programming-Languages_4cc4a0ef"
+    },
+    {
+      "type": "java",
       "name": "MultiDimensionalArrayExample",
       "request": "launch",
       "mainClass": "MultiDimensionalArrayExample",

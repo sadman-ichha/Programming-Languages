@@ -1,5 +1,10 @@
 import java.util.ArrayList;
 
+/*
+ In an ArrayList, we can store objects(String,Interger,Boolen,Double,Charater,..), 
+ not a primitive type (int,boolean, double,char...).
+ */
+
 public class ArrayListExample {
     public static void main(String[] args) {
         // Creating an ArrayList
