@@ -3,7 +3,7 @@ class Bike{
     int age;
 
     void show(){
-        name= "Sadman";
+        name= "Sadman ";
         age =23;
         System.out.println("Name:"+ name+ " Age:"+age);
     }
