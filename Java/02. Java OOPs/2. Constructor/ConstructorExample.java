@@ -5,7 +5,7 @@ class Bike{
     void show(){
         name= "Sadman ";
         age =23;
-        System.out.println("Name: "+ name+ " Age:"+age);
+        System.out.println("Name:"+ name+ " Age:"+age);
     }
 
 }
