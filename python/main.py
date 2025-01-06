@@ -8,3 +8,4 @@ print(type(x))
 y,z,a="Sadman","Ichha", "Jone","Sad"
 
 print(y,z,a)
+print(a)
