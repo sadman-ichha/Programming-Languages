@@ -1,16 +1,4 @@
 {
-  "C_Cpp.errorSquiggles": "disabled",
-  "files.associations": {
-    "stdint.h": "c",
-    "iostream": "cpp",
-    "iomanip": "cpp",
-    "ostream": "cpp",
-    "system_error": "cpp",
-    "xlocale": "cpp",
-    "xstring": "cpp",
-    "list": "cpp",
-    "xiosbase": "cpp"
-  },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
@@ -67,9 +55,5 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "java.project.sourcePaths": [
-    "Java\\03. File Headling"
-  ],
-  "java.project.referencedLibraries": []
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }

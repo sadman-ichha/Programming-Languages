@@ -2,56 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "java",
-      "name": "Hello",
-      "request": "launch",
-      "mainClass": "Hello",
-      "projectName": "Programming-Languages_4cc4a0ef"
-    },
-    {
-      "type": "java",
-      "name": "ConstructorExample",
-      "request": "launch",
-      "mainClass": "ConstructorExample",
-      "projectName": "Programming-Languages_4cc4a0ef"
-    },
-    {
-      "type": "java",
-      "name": "MultiDimensionalArrayExample",
-      "request": "launch",
-      "mainClass": "MultiDimensionalArrayExample",
-      "projectName": "Programming-Languages_4cc4a0ef"
-    },
-    {
-      "type": "java",
-      "name": "TwoDimentioanlArray",
-      "request": "launch",
-      "mainClass": "TwoDimentioanlArray",
-      "projectName": "Programming-Languages_4cc4a0ef"
-    },
-    {
-      "type": "java",
-      "name": "ArrayListExample",
-      "request": "launch",
-      "mainClass": "ArrayListExample",
-      "projectName": "Programming-Languages_4cc4a0ef"
-    },
-    {
-      "type": "java",
-      "name": "ArraysExample",
-      "request": "launch",
-      "mainClass": "ArraysExample",
-      "projectName": "Programming-Languages_4cc4a0ef"
-    },
-    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Software/Source Code For Github/Programming-Languages/C/Practices_02/23. Pattren/02. Pattren Type 2",
-      "program": "d:/Software/Source Code For Github/Programming-Languages/C/Practices_02/23. Pattren/02. Pattren Type 2/build/Debug/outDebug",
+      "cwd": "d:/Software/Source Code For Github/Programming-Languages/C++/Learing-C++/01. Hello",
+      "program": "d:/Software/Source Code For Github/Programming-Languages/C++/Learing-C++/01. Hello/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
