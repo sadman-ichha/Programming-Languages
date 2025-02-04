@@ -9,7 +9,7 @@ int main()
     cout << "Hello World!" << endl;
 
     // Using the cout object to print "Hello " and "World!" separately and adding a new line.
-    cout << "Hello "
+    cout << "Hello"
          << "World!" << endl;
 
     // Using getch function from conio.h to wait for a key press before exiting.
