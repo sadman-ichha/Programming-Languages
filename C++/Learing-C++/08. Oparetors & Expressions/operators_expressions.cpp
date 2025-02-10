@@ -33,7 +33,7 @@ int main()
 
     // Assignment operators: += and -=
     a += b; // Equivalent to a = a + b
-    cout << "After a += b, a: " << a << "\n";
+    cout << "After a += b, a:" << a << "\n";
 
     a -= b; // Equivalent to a = a - b
     cout << "After a -= b, a: " << a << "\n";
