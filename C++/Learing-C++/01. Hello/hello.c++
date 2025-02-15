@@ -1,5 +1,5 @@
 #include <iostream>
-#include <conio.h> // Including the conio.h header for getch function.
+#include <conio.h> //Including the conio.h header for getch function.
 using namespace std;
 
 int main()
