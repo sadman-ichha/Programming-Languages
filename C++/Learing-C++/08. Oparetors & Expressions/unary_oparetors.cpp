@@ -8,7 +8,7 @@ int main()
     int y = -x;
     cout << "Unary Minus (-): " << y << endl;
 
-    // Unary Plus (+) - Represents the value itself (rarely used)
+    // Unary Plus (+) - Represents  the value itself (rarely  used)
     int z = +x;
     cout << "Unary Plus (+): " << z << endl;
 
