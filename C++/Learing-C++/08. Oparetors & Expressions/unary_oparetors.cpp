@@ -17,7 +17,7 @@ int main()
     cout << "Original Value: " << a << endl;
     cout << "After Increment (++a): " << ++a << endl;
 
-    // Decrement (--) -Decreases the value by 1
+    // Decrement (--) - Decreases the value by 1
     int b = 8;
     cout << "Original Value: " << b << endl;
     cout << "After Decrement (--b): " << --b << endl;
