@@ -6,7 +6,7 @@ int main()
 
     // Unary Minus (-) - Negates the value
     int y = -x;
-    cout << "Unary Minus (-): " << y << endl;
+    cout << "Unary Minus (-):" << y << endl;
 
     // Unary Plus (+) - Represents  the value itself (rarely  used)
     int z = +x;
