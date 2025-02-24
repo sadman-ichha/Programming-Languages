@@ -12,7 +12,7 @@ int main()
     int z = +x;
     cout << "Unary Plus (+): " << z << endl;
 
-    // Increment (++) - Increases the value by one
+    // Increment (++) - Increases the value by 1
     int a = 10;
     cout << "Original Value: " << a << endl;
     cout << "After Increment (++a): " << ++a << endl;
