@@ -82,9 +82,7 @@ int main()
     cout << "Bitwise AND: " << bitwiseAnd << "\n";
     cout << "Bitwise OR: " << bitwiseOr << "\n";
     cout << "Bitwise XOR: " << bitwiseXor << "\n";
-    cout << "Bitwise NOT for a: " << bitwiseNotA << "\n";
-
-
-   
+    cout << "Bitwise NOT for a: " << bitwiseNotA << endl;
+       
     return 0;
 }
