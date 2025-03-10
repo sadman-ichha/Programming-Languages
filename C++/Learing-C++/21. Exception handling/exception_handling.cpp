@@ -17,7 +17,7 @@ int main() {
             double result = double(numerator) / denominator; 
             cout << "Result of division: " << result << endl;
 
-        } catch (const runtime_error& e) {
+        } catch (const runtime_error & e) {
             // Catch and handle the exception
             cout << "Error: " << e.what() << endl;
         } catch (...) {

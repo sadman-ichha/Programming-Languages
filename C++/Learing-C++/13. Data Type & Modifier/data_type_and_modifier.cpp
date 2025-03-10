@@ -34,7 +34,7 @@ int main() {
     bool boolVariable = true;
 
     // Displaying boolean variable
-    cout << "Boolean Variable: " << boolalpha << boolVariable << endl;
+    cout << "Boolean Variable: " << boolVariable << endl;
 
     // Modifiers
     signed int signedIntVariable = -42;
