@@ -27,23 +27,22 @@ public class WhileLoopExample {
         // }
         try (Scanner scanner = new Scanner(System.in)) {
             {
+                int x = 1; // first initialize
+                while (x <= 3) {  // Loop condition
+                    String name;
+                    System.out.print("Enter your Name["+x+"]:");
+                    name = scanner.nextLine();
+                    System.out.println(name);
+                    x+=1; // increment 
+                }
+                scanner.close(); //safe memory leaks
 
-                // int x = 1;
-                // while (x <= 5) {
+                // for(int i=1; i<=5; i+=1){
                 //     String name;
                 //     System.out.print("Enter your Name:");
                 //     name = scanner.nextLine();
-                //     System.out.println(name);
-                //     x+=1;
+                //     System.out.println(name);  
                 // }
-                //scanner.close();
-
-                for(int i=1; i<=5; i+=1){
-                    String name;
-                    System.out.print("Enter your Name:");
-                    name = scanner.nextLine();
-                    System.out.println(name);  
-                }
 
             }
         } catch (Exception e) {
