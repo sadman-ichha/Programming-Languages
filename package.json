@@ -1,0 +1,22 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "hi",
+  "main": "index.js",
+  "scripts": {
+    "test": "hi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadman-ichha/Programming-Languages.git"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "sadman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadman-ichha/Programming-Languages/issues"
+  },
+  "homepage": "https://github.com/sadman-ichha/Programming-Languages#readme"
+}
