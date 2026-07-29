@@ -6,3 +6,12 @@ try:
     print(f"{x} + 1 = {y}")
 except ValueError:
     print("Invalid input")
+
+
+
+
+
+
+age = 13
+myAge = "is fifteen" if age == 15 else "is not fifteen"
+print(myAge)
