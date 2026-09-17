@@ -16,6 +16,12 @@
 #     return False
 
 
-is_adult = lambda age: True if age >= 18 else False
+add=lambda a, b:  a+b
+print(add(5, 3))
+
+
+def is_adult(age): return True if age >= 18 else False
+
+
 print(is_adult(18))
 print(is_adult(11))
