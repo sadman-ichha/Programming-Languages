@@ -1,7 +1,14 @@
-#       0  1  2  3   4   5   6   7   8  9  10
-nums = [5, 7, 4, 64, 32, 17, 53, 85, 3, 1, 999]
+# Python example: use enumerate() to get each item's index and value.
+fruits = ["apple", "banana", "mango"]
 
+for index, fruit in enumerate(fruits):
+    print(f"Index: {index}, fruit: {fruit}")
 
-for index, value in enumerate(nums):
-    if value % 2 == 0:
-        print(index)
+# Expected output:
+# Index: 0, fruit: apple
+# Index: 1, fruit: banana
+# Index: 2, fruit: mango
+#
+# Key ideas:
+# - enumerate() provides an index and item on each loop.
+# - Indexes start at 0 by default.
