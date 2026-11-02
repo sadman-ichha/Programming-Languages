@@ -11,7 +11,7 @@ numbers_from_comprehension = [i for i in range(1,10)]
 print("Using a list comprehension:", numbers_from_comprehension)
 
 # A comprehension can also transform each value.
-squares = [number**2 for number in range(2, 8)]
+squares = [number*number for number in range(2, 8)]
 print("Squares:", squares)
 
 # Expected output:
