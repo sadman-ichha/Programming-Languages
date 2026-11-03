@@ -1,34 +1,33 @@
-# Python example: use membership operators to check values in a list.
-colors = ["navy", "mint", "amber"]
+# Python: use `in` and `not in` to check whether a value is in a list.
+fruits = ["mango", "peach", "kiwi"]
 
-favorite_color = "mint"
-missing_color = "lavender"
+favorite_fruit = "peach"
+unavailable_fruit = "plum"
 
-if favorite_color in colors:
-    print(f"{favorite_color} is on the color list.")
+if favorite_fruit in fruits:
+    print(f"{favorite_fruit} is on the fruit list.")
 
-# `not in` is true when a value is absent from the list.
-if missing_color not in colors:
-    print(f"{missing_color} is not on the color list.")
+if unavailable_fruit not in fruits:
+    print(f"{unavailable_fruit} is not on the fruit list.")
 
-# Output:
-# mint is on the color list.
-# lavender is not on the color list.
+# Check that a number exists before removing it.
+numbers = [5, 8, 11, 8, 14, 17]
+number_to_remove = int(input("Enter a number to remove: "))
 
-# Check membership before removing a value from a list.
-numbers = [4, 7, 9, 7, 12, 15]
-target_number = int(input("Enter a number to remove: "))
-
-if target_number in numbers:
-    numbers.remove(target_number)
+if number_to_remove in numbers:
+    numbers.remove(number_to_remove)
     print(f"Updated numbers: {numbers}")
 else:
-    print(f"{target_number} is not in the list, so nothing was removed.")
+    print(f"{number_to_remove} is not in the list, so nothing was removed.")
 
-# Example: entering 7 removes only its first occurrence.
-# Updated numbers: [4, 9, 7, 12, 15]
+# Example input: 8
+# Output:
+# peach is on the fruit list.
+# plum is not on the fruit list.
+# Enter a number to remove: 8
+# Updated numbers: [5, 11, 8, 14, 17]
 #
 # Key ideas:
 # - `in` checks whether a value is present.
 # - `not in` checks whether a value is absent.
-# - remove(value) removes only the first matching item.
+# - `remove(value)` removes only the first matching item.
