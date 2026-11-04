@@ -1,8 +1,8 @@
 # Python: use `in` and `not in` to check whether a value is in a list.
-available_fruits = ["apricot", "blueberry", "cherry"]
+available_fruits = ["coconut", "banana", "mango"]
 
-favorite_fruit = "blueberry"
-missing_fruit = "plum"
+favorite_fruit = "mango"
+missing_fruit = "apple"
 
 if favorite_fruit in available_fruits:
     print(f"{favorite_fruit} is on the fruit list.")
@@ -10,22 +10,22 @@ if favorite_fruit in available_fruits:
 if missing_fruit not in available_fruits:
     print(f"{missing_fruit} is not on the fruit list.")
 
-# Check that a number exists before removing it.
-numbers = [3, 6, 9, 12, 15, 12]
-number_to_remove = int(input("Enter a number to remove: "))
+# Check that a score exists before removing it.
+scores = [7, 14, 21, 28, 21]
+remove_score = int(input("Enter a score to remove: "))
 
-if number_to_remove in numbers:
-    numbers.remove(number_to_remove)
-    print(f"Updated numbers: {numbers}")
+if remove_score in scores:
+    scores.remove(remove_score)
+    print(f"Updated scores: {scores}")
 else:
-    print(f"{number_to_remove} is not in the list, so nothing was removed.")
+    print(f"{remove_score} is not in the list, so nothing was removed.")
 
-# Example input: 12
+# Example input: 28
 # Output:
-# blueberry is on the fruit list.
-# plum is not on the fruit list.
-# Enter a number to remove: 12
-# Updated numbers: [3, 6, 9, 15, 12]
+# mango is on the fruit list.
+# apple is not on the fruit list.
+# Enter a score to remove: 28
+# Updated scores: [7, 14, 21, 21]
 #
 # Key ideas:
 # - `in` checks whether a value is present.
