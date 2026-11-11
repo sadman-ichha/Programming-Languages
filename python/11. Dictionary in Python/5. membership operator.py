@@ -1,13 +1,19 @@
-student = {
-    "name": "Rahul",
-    "age": 35,
-    "gender": "Male",
-    "city": "Surat",
-}
+# Language: Python
+# Topic: Checking whether a key exists in a dictionary
 
-k = input("Enter key = ")
+student = {"name": "Sam", "age": 20, "city": "Rome"}
 
-if k in student:
-    print(student[k])
+key = input("Enter a key: ")
+
+# The `in` operator checks dictionary keys.
+if key in student:
+    print(student[key])
 else:
-    print("Key does not exists")
+    print("Key does not exist")
+
+# Example: entering "name" prints Sam.
+# Entering "grade" prints Key does not exist.
+#
+# Key ideas:
+# - Use `key in dictionary` to check whether a key exists.
+# - Use `dictionary[key]` to get its value after checking.
