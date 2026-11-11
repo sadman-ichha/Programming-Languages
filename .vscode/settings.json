@@ -1,5 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
+    "code-runner.executorMap": {
+        "python": "/opt/homebrew/bin/python3 -u \"$fullFileName\""
+    },
     "files.associations": {
         "istream": "cpp",
         "atomic": "cpp",
