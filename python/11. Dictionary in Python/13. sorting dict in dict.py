@@ -1,15 +1,30 @@
+# Python example: sort a nested dictionary by students' math marks.
 students = {
-    "anirudh": {"math": 87, "science": 92, "english": 74},
-    "priya": {"math": 65, "science": 78, "english": 90},
-    "rahul": {"math": 55, "science": 60, "english": 48},
-    "sneha": {"math": 95, "science": 88, "english": 82},
-    "karan": {"math": 70, "science": 45, "english": 63},
+    "Ava": {"math": 8, "science": 9, "english": 7},
+    "Leo": {"math": 6, "science": 8, "english": 9},
+    "Mia": {"math": 10, "science": 8, "english": 8},
+    "Noah": {"math": 5, "science": 6, "english": 4},
 }
 
-# ans = dict(
-#     sorted(
-#         students.items(), key=lambda x: x[1]["math"] + x[1]["science"] + x[1]["english"]
-#     )
-# )
-ans = dict(sorted(students.items(), key=lambda x: sum(x[1].values()), reverse=True))
-print(ans)
+# Each item is a (student_name, subject_marks) pair.
+sorted_students = dict(
+    sorted(
+        students.items(),
+        key=lambda student: student[1]["math"],
+        reverse=True,
+    )
+)
+
+for name, marks in sorted_students.items():
+    print(f"{name}: math = {marks['math']}")
+
+# Output:
+# Mia: math = 10
+# Ava: math = 8
+# Leo: math = 6
+# Noah: math = 5
+#
+# Key ideas:
+# - A nested dictionary stores each student's subject marks.
+# - student[1]["math"] gets the math mark from a name-and-marks pair.
+# - reverse=True sorts from the highest math mark to the lowest.
