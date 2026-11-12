@@ -1,4 +1,4 @@
-# Python example: loop through dictionary keys and values with .items().
+# Python example: loop through each subject and mark in a dictionary.
 marks = {
     "science": 10,
     "math": 9,
@@ -7,13 +7,14 @@ marks = {
     "islam": 6,
 }
 
-print(type(marks))
+print("Dictionary type:", type(marks))
 
+# .items() provides each key and value as a pair.
 for subject, mark in marks.items():
     print(f"{subject}: {mark}")
 
 # Output:
-# <class 'dict'>
+# Dictionary type: <class 'dict'>
 # science: 10
 # math: 9
 # computer: 8
@@ -21,5 +22,5 @@ for subject, mark in marks.items():
 # islam: 6
 #
 # Key ideas:
-# - .items() gives each dictionary key and its value.
-# - Use two loop variables to handle each key-value pair.
+# - .items() returns each key-value pair.
+# - Use one loop variable for the key and another for the value.
